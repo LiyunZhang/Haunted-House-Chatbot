@@ -26,4 +26,4 @@ app.post("/sms", (req, res) =>{
 });
 var port = process.env.PORT || parseInt(process.argv.pop()) || 3000;
 
-app.listen(port, () => console.log('Example app listening on port '+port+'!'));
+app.listen(port, () => console.log('Example app listening on port ' + port + '!'));
